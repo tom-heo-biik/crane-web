@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "crane-web",
+  "description": "두루미(crane) 웹디자인 시스템 플러그인 마켓플레이스",
+  "owner": {
+    "name": "biik"
+  },
+  "plugins": [
+    {
+      "name": "biik",
+      "description": "두루미(crane)의 표준 웹 디자인 시스템 스킬 — PC",
+      "version": "0.1.0",
+      "author": {
+        "name": "biik"
+      },
+      "source": "./",
+      "category": "productivity",
+      "tags": [
+        "web",
+        "design-system",
+        "homepage",
+        "crane",
+        "biik"
+      ]
+    }
+  ],
+  "version": "0.1.0"
+}

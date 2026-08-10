@@ -1,0 +1,16 @@
+{
+  "name": "biik",
+  "description": "두루미(crane)의 표준 웹 디자인 시스템 스킬 — PC",
+  "version": "0.1.0",
+  "author": {
+    "name": "biik"
+  },
+  "license": "MIT",
+  "keywords": [
+    "web",
+    "design-system",
+    "homepage",
+    "crane",
+    "biik"
+  ]
+}
