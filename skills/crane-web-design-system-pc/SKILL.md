@@ -58,8 +58,9 @@ description: "두루미(crane)의 표준 웹(PC) 디자인 시스템이 작성�
 
 ## 창호(窓戶)
 막: 지(紙) / 0.800
-비침: backdrop-filter blur(8px) saturate(0.800)
-결: feTurbulence fractalNoise. baseFrequency 1 0.5, numOctaves 1, seed 10, stitchTiles stitch, multiply(0.100)
+비침: backdrop-filter blur(8px)
+결: feTurbulence fractalNoise. baseFrequency 1.6 0.1, numOctaves 1, seed 10, stitchTiles stitchTiles
+얹기: 결 overlay(0.100)
 
 
 ## 호응(呼應)
