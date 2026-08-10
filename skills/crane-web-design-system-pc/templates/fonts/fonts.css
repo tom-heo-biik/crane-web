@@ -1,0 +1,26 @@
+/* KoPubWorld 바탕체 — 필법(筆法) 무게 300·500·700.
+   패키지 공식 CSS는 Medium을 400에 매핑하지만 두루미는 500에 앉힌다. */
+
+@font-face {
+    font-family: 'KoPubWorld Batang';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('KoPubWorld-Batang-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'KoPubWorld Batang';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('KoPubWorld-Batang-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'KoPubWorld Batang';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('KoPubWorld-Batang-Bold.woff2') format('woff2');
+}

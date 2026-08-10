@@ -66,3 +66,12 @@ description: "두루미(crane)의 표준 웹(PC) 디자인 시스템이 작성�
 방원(方圓): 반경이 0이면 corner-shape가 안 먹으니 반경부터 넣어야 함. 미지원 브라우저는 알아서 둥근 모서리로 보여주므로 그대로 두면 됨.
 호응(呼應): 윤(潤)에서 농묵(濃墨) → 인주(印朱)는 결정적인 곳에만 사용해야 함.
 호응(呼應): 점정(點睛)은 :focus 말고 :focus-visible에 걸어야 함. 서간은 글 쓰는 칸이라 눌러 들어가도 알아서 찍힘.
+
+
+## 파일
+templates/fonts/: 서체 실파일. 웹 프로젝트에 폴더째 복사하고 fonts.css를 링크해 쓴다
+templates/fonts/fonts.css: @font-face 세 벌 — 300·500·700
+templates/fonts/KoPubWorld-Batang-Light.woff2: 300
+templates/fonts/KoPubWorld-Batang-Medium.woff2: 500
+templates/fonts/KoPubWorld-Batang-Bold.woff2: 700
+templates/fonts/LICENSE.md: KoPubWorld 라이선스. 서체를 담아 배포할 때 함께 담는다

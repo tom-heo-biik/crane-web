@@ -12,6 +12,7 @@
 skills/crane-web-design-system-pc/
 ├─ SKILL.md
 └─ templates/
+   └─ fonts/       KoPubWorld 바탕체 Light·Medium·Bold (woff2) + fonts.css + 라이선스
 ```
 
 ## 설치
