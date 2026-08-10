@@ -56,6 +56,13 @@ description: "두루미(crane)의 표준 웹(PC) 디자인 시스템이 작성�
 쓴 글: 농묵(濃墨)
 
 
+## 창호(窓戶)
+막: 지(紙) / 0.800
+비침: backdrop-filter blur(8px) saturate(0.800)
+결: feTurbulence fractalNoise. baseFrequency 1 0.5, numOctaves 1, seed 10, stitchTiles stitch
+얹기: 결 saturate(0) multiply(0.100)
+
+
 ## 호응(呼應)
 윤(潤): hover. 화선지(畵宣紙) → 옥판선지(玉版宣紙). 담묵(淡墨) → 중묵(中墨). 중묵(中墨) → 농묵(濃墨). 농묵(濃墨) → 인주(印朱).
 점정(點睛): focus. 윤곽을 인주(印朱)로 강조합니다.
@@ -64,6 +71,9 @@ description: "두루미(crane)의 표준 웹(PC) 디자인 시스템이 작성�
 ## 범례(凡例)
 필법(筆法): 코드 작성 시 폰트 크기를 rem으로 작성해야 함.
 방원(方圓): 반경이 0이면 corner-shape가 안 먹으니 반경부터 넣어야 함. 미지원 브라우저는 알아서 둥근 모서리로 보여주므로 그대로 두면 됨.
+창호(窓戶): 막은 지(紙)의 알파로 구현해야 함. 요소 opacity를 쓰면 안의 글까지 옅어짐.
+창호(窓戶): 사파리가 아직 -webkit-을 원하니 backdrop-filter는 접두사와 같이 적어야 함.
+창호(窓戶): 결은 ::after로 올리고 border-radius와 corner-shape를 inherit로 받아 방원(方圓)을 따라가게 해야 함. 창호에 isolation: isolate를 걸어야 곱하기가 밖으로 안 샘.
 호응(呼應): 윤(潤)에서 농묵(濃墨) → 인주(印朱)는 결정적인 곳에만 사용해야 함.
 호응(呼應): 점정(點睛)은 :focus 말고 :focus-visible에 걸어야 함. 서간은 글 쓰는 칸이라 눌러 들어가도 알아서 찍힘.
 
